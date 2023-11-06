@@ -2,9 +2,9 @@ export const hero = [
     {
       id: 1,
       cover: "../images/image1.png",
-      catgeory: "featured",
-      title: "Google To Boost Android Security In Few Days",
-      time: "5 Jun - 2022",
+      catgeory: "Reconectar e conservar",
+      title: "Juntos, fazendo do mundo um lugar melhor",
+      time: "5 agosto - 2023",
       desc: [
         {
           para1: "Diga algo sobre",
@@ -35,9 +35,9 @@ export const hero = [
     {
       id: 2,
       cover: "../images/image2.jpg",
-      catgeory: "sport",
-      title: "More than billion football fans attend Brazil world cup",
-      time: "12 Aug - 2022",
+      catgeory: "Natureza",
+      title: "Preservando a fauna ",
+      time: "12 Agosto - 2023",
       desc: [
         {
           para1: "Diga algo sobre",
@@ -68,8 +68,8 @@ export const hero = [
     {
       id: 3,
       cover: "../images/image3.jpg",
-      catgeory: "fashion",
-      title: "No escaping new high tech speed cameras",
+      catgeory: "Educação",
+      title: "conscientizando pessoas",
       time: "22 Mar - 2022",
       desc: [
         {
@@ -101,9 +101,9 @@ export const hero = [
     {
       id: 4,
       cover: "../images/image1.png",
-      catgeory: "technology",
-      title: "Emma Watson stands up for Turkish women",
-      time: "08 Dec - 2022",
+      catgeory: "Outros",
+      title: "",
+      time: "08 Agosto - 2023",
       desc: [
         {
           para1: "Texto qualquer...",
@@ -131,5 +131,39 @@ export const hero = [
         },
       ],
     },
+  ]
+
+
+
+//----SLIDERS--------
+
+export const sliders = [
+    {
+      id: 1,
+      catgeory: "world",
+      title: "Our Favorite Photos From All Around",
+      date: "19. February 2022",
+      comments: 0,
+      cover: "../images/image1.png",
+      desc: "Loremur ridiculus muugiat aslecbes sagittis magna.",
+    },
+    {
+      id: 2,
+      catgeory: "world",
+      title: "Our Favorite Photos From All Around",
+      date: "19. February 2022",
+      comments: 0,
+      cover: "../images/image1.png",
+      desc: "Loremur ridiculus muugiat aslecbes sagittis magna.",
+    },
+    {
+      id: 3,
+      catgeory: "world",
+      title: "Our Favorite Photos From All Around",
+      date: "19. February 2022",
+      comments: 0,
+      cover: "../images/image1.png",
+      desc: "Loremur ridiculus muugiat aslecbes sagittis magna.",
+    }
   ]
 

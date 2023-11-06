@@ -1,4 +1,5 @@
 import React from 'react'
+import { BiLogoInstagram, BiLogoFacebookCircle, BiLogoGmail, BiPhone } from "react-icons/bi";
 import './footer.css'
 
 const Footer = () => {
@@ -10,9 +11,21 @@ const Footer = () => {
                 {/*<img src="" alt="" />*/}
                 <p> Instituto Sumauma</p>
                 <br />
-                <i className='fa fa-envelope'></i><span>instituto.am.@gmail.com</span>
-                <br />
-                <i className='fa fa-headphones'></i><span>(92)9999-9999</span>
+                <ul>
+                  <li>
+                    <BiLogoGmail />
+                  </li>
+                  <li> 
+                    <BiPhone/> 
+                  </li>
+                  <li>
+                    <BiLogoInstagram />
+                  </li>
+                  <li>
+                    <BiLogoFacebookCircle />
+                  </li>
+                </ul>
+                
             </div>
         </div>
     </footer>

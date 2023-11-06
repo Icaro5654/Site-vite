@@ -1,12 +1,12 @@
 import React from 'react'
-//import Hero from './hero/Hero'
-
+import Hero from '../home/hero/Hero'
 //import "./home.css"
 
 const Homepages = () => {
   return (
     <>
-    <h2>React é pra macaco</h2>
+    <Hero />
+      
     </>
   )
 }
