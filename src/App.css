@@ -5,15 +5,16 @@
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #a2a2a2;
-  color: darkgreen;
+  background-image: url("../public/background-green.svg");
+  /*background-color: #a2a2a2;*/
+  color: rgb(211, 218, 211);
   /*background-position: center;*/
   background-size: cover;
 }
 
 h1, h2, h3, h4, h5, h6, span, label {
   cursor: pointer;
-  color:darkgreen ;
+  color:rgb(48, 184, 48) ;
 }
 
 a {

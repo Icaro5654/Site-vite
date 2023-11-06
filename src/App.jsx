@@ -9,7 +9,8 @@ import Footer from './components/footer/Footer';
 //pages
 import Homepages from './components/pages/home/Homepages';
 import Project from './components/pages/project/Project';
-import Abount from './components/pages/abount/Abount';
+import Board from './components/pages/board/Board';
+import About from './components/pages/about/About';
 
 
 function App() {
@@ -20,7 +21,8 @@ function App() {
          <Routes>
            <Route path="/" element={<Homepages />} />
            <Route path="/project" element={<Project />} /> 
-           <Route path="/abount"  element={<Abount />} />
+           <Route path="/about"  element={<About />} />
+           <Route path='/board' element ={<Board />} />
            {/*<Route path='/direct' element={<Direct />} />*/}
          </Routes>
        <Footer />

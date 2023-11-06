@@ -6,11 +6,14 @@ footer {
 }
 
 footer .container {
+    height: 20vh;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 30px;
+   
 
 }
+
 
 footer h3 {
     margin-bottom: 30px;
@@ -49,7 +52,7 @@ footer ul li span::before {
 }
 
 i {
-    color: red;
+    color: rgb(7, 185, 69);
 }
 
 @media screen and (max-width:768px) {

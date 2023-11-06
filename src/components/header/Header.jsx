@@ -23,6 +23,9 @@ function Header() {
               <li>
               <NavLink to='/about'>Sobre</NavLink>
               </li>
+              <li>
+                <NavLink to='/board' >Diretoria</NavLink>
+              </li>
             </ul>
             <button className="barIco" onClick={() => setNavbar(!navbar)}>
               {navbar ? <i className="fa fa-times"></i> : <i className="fa fa-bars"></i>}
