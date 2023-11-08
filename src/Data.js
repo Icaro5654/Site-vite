@@ -1,10 +1,10 @@
 export const hero = [
     {
       id: 1,
-      cover: "../images/image1.png",
-      catgeory: "Reconectar e conservar",
-      title: "Juntos, fazendo do mundo um lugar melhor",
-      time: "5 agosto - 2023",
+      cover: "../images/image5.jpg",
+      catgeory: "Natureza",
+      title: "",
+      time: "",
       desc: [
         {
           para1: "Diga algo sobre",
@@ -35,9 +35,9 @@ export const hero = [
     {
       id: 2,
       cover: "../images/image2.jpg",
-      catgeory: "Natureza",
+      catgeory: "Fauna",
       title: "Preservando a fauna ",
-      time: "12 Agosto - 2023",
+      time: "Agosto - 2023",
       desc: [
         {
           para1: "Diga algo sobre",
@@ -70,7 +70,7 @@ export const hero = [
       cover: "../images/image3.jpg",
       catgeory: "Educação",
       title: "conscientizando pessoas",
-      time: "22 Mar - 2022",
+      time: " Mar - 2023",
       desc: [
         {
           para1: "Texto qualquer...",

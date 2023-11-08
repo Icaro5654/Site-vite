@@ -1,9 +1,10 @@
 import React from 'react'
-
+import { IoIosConstruct } from "react-icons/io";
 const Project = () => {
   return (
     <div>
-      <h2>Reconectar e Conservar</h2>
+      <br />
+      <h2>Pagina em construção <IoIosConstruct/>... </h2>
     </div>
   )
 }
