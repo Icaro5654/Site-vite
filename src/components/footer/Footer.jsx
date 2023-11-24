@@ -7,7 +7,7 @@ const Footer = () => {
     <>
     <footer>
         <div className="container">
-            <div className="box logo">
+            <div className="logo">
                 {/*<img src="" alt="" />*/}
                 <p> Instituto Sumauma</p>
                 <br />

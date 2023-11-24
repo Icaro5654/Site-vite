@@ -73,6 +73,22 @@
   .hero .box:nth-child(4) .category {
     background-color: #c78823;
   }
+
+  .box:hover {
+    transform: scale(1.1);
+  }
+  
+  .box {
+    transition: transform 0.3s;
+  }
+  
+  .box {
+    opacity: 1;
+    animation: appear 0.2s forwards
+  }
+
+
+  
   @media screen and (max-width: 768px) {
     .hero .container {
       display: grid;
